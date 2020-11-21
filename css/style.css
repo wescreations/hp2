@@ -7,6 +7,10 @@ body {
   background-color: white !important;
 }
 
+.closebutton {
+	font-family: 'Raleway'; color: darkred; text-decoration: none; float: right; margin-bottom: 15px; margin-right: 15px;
+}
+
 h1 {
 	font-size: 36px;
 	font-weight: 600;
