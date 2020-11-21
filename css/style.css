@@ -1,0 +1,254 @@
+body {
+	padding: 0px;
+	font-family: 'Raleway', sans-serif;
+    background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-color: white !important;
+}
+
+h1 {
+	font-size: 36px;
+	font-weight: 600;
+}
+
+p {
+	font-weight: 300;
+	line-height: 11px;
+}
+
+.graybtn {
+	padding: 10px 15px;
+	border-radius: 3px background-color: gray;
+	color: black;
+}
+
+ul {
+	list-style-type: none;
+}
+
+li {
+	padding: 10px 15px;
+	border-radius: 3px;
+	background-color: lightgray;
+	display: inline-block;
+	margin-right: 3px;
+}
+
+.boxy {
+	width: 60%;
+	padding: 0;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 8px;
+	background-color: white;
+	border: solid .25px lightgray;
+	-webkit-box-shadow: 0px 4px 4px -1px rgba(0, 0, 0, 0.31);
+	-moz-box-shadow: 0px 4px 4px -1px rgba(0, 0, 0, 0.31);
+	box-shadow: 0px 4px 4px -1px rgba(0, 0, 0, 0.31);
+	height: 630px;
+
+	overflow-y: scroll;
+	padding-right: 17px;
+	box-sizing: content-box;
+	overflow-x: hidden;
+}
+
+.padding {
+	padding: 5px 25px 0px;
+	border-bottom: .5px solid lightgray;
+}
+
+::-webkit-scrollbar {
+	width: 0px;
+	background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #FF0000;
+}
+
+.frame {
+	border: solid .5 lightgray;
+	border-radius: 50;
+}
+
+.inputty {
+	line-height: 35px;
+}
+
+input {
+	background-color: #ffc500;
+	opacity: .7;
+	width: 100%;
+	padding-left: 10px border-bottom: none;
+	border: none;
+	color: #7f0909 !important;
+}
+
+input:focus {
+	outline: none;
+	border-bottom: border .5px black;
+}
+
+h3, h2, h1, h6 {
+font-family: 'Fontdiner Swanky', cursive;
+color: #7f0909;
+}
+
+h5 {
+  color: white;
+  font-family: 'Fontdiner Swanky', cursive;
+  font-size: 18px;
+
+}
+
+.card {
+  width: 365px;
+  border: none !important;
+  border-radius: 1px !important;
+  padding: 0px;
+  background-color: black !important;
+  opacity: .9;
+  z-index: 3;
+
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #7f0909;
+  opacity: 1; /* Firefox */
+font-family: 'Raleway', sans-serif;
+}
+
+p {
+font-family: 'Raleway', sans-serif;
+color: white;
+font-size: 13px;
+}
+
+
+.mybutton {
+  width: 100px;
+  border: solid 1px #7f0909;
+  border-radius: 2px;
+  background-color: #ffc500;
+  color: #7f0909;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.mybutton:hover {
+  width: 100px;
+  border: solid 1px #ffc500;
+  border-radius: 2px;
+  background-color: #7f0909;
+  color: #ffc500;
+  transition: .5s;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.modal-box {
+  display: none;
+  position: fixed;
+  background-color: black !important;
+  z-index: 10001;
+  width: 50%;
+  color: white;
+  border-bottom: 1px solid #aaa;
+  border-radius: 1px;
+  box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background-clip: padding-box;
+  padding: 0;
+}
+
+.modal-box header,
+.modal-box .modal-header {
+
+  border-bottom: 1px solid #ddd;
+}
+
+.modal-box header h3,
+.modal-box header h4,
+.modal-box .modal-header h3,
+.modal-box .modal-header h4 { margin: 0; }
+
+
+.modal-box footer,
+.modal-box .modal-footer {
+  border-top: 1px solid #ddd;
+  background: rgba(0, 0, 0, 0.02);
+  text-align: right;
+
+}
+
+
+.modal-overlay {
+
+  position: fixed; !important;
+  top: 0 !important;
+  left: 0  !important;
+  z-index: 5;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3) !important;
+}
+
+a.close {
+  line-height: 1;
+  font-size: 1.5em;
+  position: absolute;
+  top: 5%;
+  right: 2%;
+  text-decoration: none !important;
+  color: #bbb;
+
+}
+
+a.close:hover {
+  color: #222;
+  -webkit-transition: color 1s ease;
+  -moz-transition: color 1s ease;
+  transition: color 1s ease;
+}
+
+.container {
+  overflow: hidden;
+}
+
+.filterDiv {
+  float: left;
+  background-color: #2196F3;
+  color: #ffffff;
+  width: 100px;
+  line-height: 100px;
+  text-align: center;
+  margin: 2px;
+  display: none; /* Hidden by default */
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+/* Add a light grey background on mouse-over */
+.btn:hover {
+  background-color: #ddd;
+}
+
+/* Add a dark background to the active button */
+.btn.active {
+  background-color: #666;
+  color: white;
+}
